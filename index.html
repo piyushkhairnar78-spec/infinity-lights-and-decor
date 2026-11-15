@@ -1,299 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="INFINITY LIGHTS & DECOR offers event, wedding and stage lighting in Nashik, Maharashtra. Enquire on WhatsApp.">
-<meta name="theme-color" content="#090a0d">
-<title>INFINITY LIGHTS &amp; DECOR | Event Lighting, Nashik</title>
-<style>
-:root{--gold:#d9b45b;--gold2:#f3d98d;--bg:#090a0d;--panel:#14161b;--muted:#b9bac0;--white:#fff;--line:#d9b45b55;--shadow:0 18px 50px rgba(0,0,0,.32)}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:95px}body{margin:0;background:var(--bg);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}button,input,select,textarea{font:inherit}p{margin:0}
-.wrap{width:min(1160px,calc(100% - 32px));margin:0 auto}
-header{position:sticky;top:0;z-index:50;background:#090a0def;border-bottom:1px solid #ffffff18;backdrop-filter:blur(12px)}
-nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:18px}
-.brand{display:flex;align-items:center;gap:12px;color:var(--white);font-weight:700;letter-spacing:.08em}
-.brand-mark{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--gold2),var(--gold));color:#111;box-shadow:0 8px 22px rgba(217,180,91,.42);font-weight:900}
-.brand-text{display:flex;flex-direction:column;line-height:1.04;font-size:15px}
-.brand-text span{font-size:11px;letter-spacing:2.6px;color:var(--gold2);font-weight:600}
-.links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-.links a{color:#e9e7e0;font-size:14px;opacity:.9;transition:opacity .2s ease}
-.links a:hover{opacity:1}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 22px;border-radius:999px;border:1px solid var(--line);background:linear-gradient(135deg,var(--gold2),var(--gold));color:#0a0d12;font-weight:700;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;transition:transform .2s ease, box-shadow .2s ease;box-shadow:0 12px 22px rgba(217,180,91,.2)}
-.btn:hover{transform:translateY(-2px);box-shadow:0 16px 26px rgba(217,180,91,.3)}
-.btn.outline{background:transparent;color:var(--white);border-color:#ffffff25}
-.hero{min-height:610px;display:grid;align-items:center;background:linear-gradient(90deg,#07080bf2 0%,#07080bc9 48%,#07080b50 100%),radial-gradient(ellipse at 78% 35%,#a77b2c88,transparent 35%),linear-gradient(135deg,#120d0c 0%,#090a0d 48%,#121c18 100%);position:relative;overflow:hidden}
-.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.04),transparent 38%,rgba(255,255,255,.03));pointer-events:none}
-.hero-content{position:relative;max-width:620px;padding:40px 0;z-index:2}
-.eyebrow{display:inline-block;padding:8px 12px;border:1px solid var(--line);background:rgba(255,255,255,.03);border-radius:999px;color:var(--gold2);font-size:11px;letter-spacing:2.8px;text-transform:uppercase}
-h1{margin:18px 0 16px;font-size:clamp(2.9rem,6vw,5.4rem);line-height:.95;letter-spacing:-.06em;text-transform:uppercase}
-h1 em{font-style:normal;color:var(--gold2);display:block}
-.lead{max-width:560px;font-size:1.08rem;color:#ece7dd;opacity:.95}
-.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
-section{padding:78px 0}
-.section-title{text-align:center;margin:0 auto 38px;max-width:720px}
-.section-title small{color:var(--gold2);letter-spacing:3px;text-transform:uppercase;font-size:11px}
-.section-title h2{margin:10px 0 12px;font-size:clamp(2rem,3vw,3rem);letter-spacing:-.05em}
-.section-title p{color:var(--muted);font-size:1.03rem}
-.about-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:26px;align-items:stretch}
-.about-card,.visual-card,.service,.story-card,.contact-box,.enquiry-box,.map-box{background:linear-gradient(145deg,#191b21,#111216);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
-.about-card{padding:32px 28px}
-.about-card h3{margin:14px 0 14px;font-size:clamp(1.8rem,3vw,2.4rem);letter-spacing:-.05em;line-height:1.1}
-.about-card p{color:var(--muted);font-size:1rem}
-.about-card p + p{margin-top:16px}
-.visual-card{min-height:280px;display:grid;place-items:center;text-align:center;padding:26px;background:linear-gradient(180deg,#171a20,#0f1116);font-size:clamp(1.8rem,3vw,2.8rem);font-weight:800;letter-spacing:.08em;line-height:1.2;color:var(--gold2);text-transform:uppercase}
-.services{background:#101116}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.service{padding:26px 22px}
-.icon{font-size:30px;color:var(--gold2);margin-bottom:12px}
-.service h3{margin:0 0 10px;font-size:1.45rem}
-.service p{color:var(--muted)}
-.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.gallery-item{height:205px;border-radius:10px;display:flex;align-items:flex-end;padding:18px;border:1px solid var(--line);background:linear-gradient(145deg,#2d261a,#151720);color:#f7f4ef;font-weight:700;letter-spacing:.08em;text-transform:uppercase;box-shadow:var(--shadow)}
-.gallery-item:nth-child(1){background:linear-gradient(145deg,#33261e,#101218),url('https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=900&q=80') center/cover no-repeat}
-.gallery-item:nth-child(2){background:linear-gradient(145deg,#42331d,#101217),url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=900&q=80') center/cover no-repeat}
-.gallery-item:nth-child(3){background:linear-gradient(145deg,#3d2a1e,#13161b),url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80') center/cover no-repeat}
-.gallery-item:nth-child(4){background:linear-gradient(145deg,#312416,#13171d),url('https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=900&q=80') center/cover no-repeat}
-.gallery-item:nth-child(5){background:linear-gradient(145deg,#392e18,#0d1117),url('https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=900&q=80') center/cover no-repeat}
-.gallery-item:nth-child(6){background:linear-gradient(145deg,#3d2d17,#0f1118),url('https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=900&q=80') center/cover no-repeat}
-.stories{background:#101116}.story-card{max-width:760px;margin:auto;text-align:center;padding:34px}
-.story-card p{color:var(--muted);font-size:1.02rem}
-.story-card .btn{margin-top:20px}
-.contact{background:linear-gradient(130deg,#191710,#101116 60%)}
-.contact-box{display:grid;grid-template-columns:1fr 1fr;gap:30px;padding:26px;background:#0b0c10}
-.contact-list,.enquiry-box,.map-box{padding:20px 18px;border-radius:12px;background:#111318;border:1px solid var(--line)}
-.contact-list h3,.enquiry-box h3{margin:0 0 16px;font-size:1.5rem}
-.contact-list a,.contact-list p{display:block;color:#eaeae4;font-size:1rem;line-height:1.8}
-.contact-list a{color:var(--white)}
-.contact-list .meta{color:var(--muted)}
-.enquiry-box p{color:var(--muted);margin-bottom:18px}
-.enquiry-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-.enquiry-form label{display:grid;gap:8px;font-size:13px;color:#f0efe8;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
-.enquiry-form input,.enquiry-form select,.enquiry-form textarea{width:100%;border:1px solid #ffffff18;background:#0f1015;color:var(--white);padding:12px 13px;border-radius:8px;outline:none}
-.enquiry-form input:focus,.enquiry-form select:focus,.enquiry-form textarea:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(217,180,91,.15)}
-.enquiry-form textarea{min-height:120px;resize:vertical}
-.full{grid-column:1 / -1}
-.map-box iframe{width:100%;height:100%;min-height:210px;border:0;border-radius:10px}
-footer{padding:25px 0;text-align:center;color:#999;border-top:1px solid #ffffff18;font-size:13px}
-.floating-whatsapp{position:fixed;right:22px;bottom:22px;z-index:20;display:flex;align-items:center;gap:8px;padding:14px 18px;border-radius:999px;background:#25d366;color:#071b10;font-weight:800;box-shadow:0 18px 26px rgba(37,211,102,.28);transition:transform .2s ease}
-.floating-whatsapp:hover{transform:translateY(-3px)}
-.floating-whatsapp .wa-dot{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:rgba(255,255,255,.15);font-size:14px}
-@media(max-width:760px){nav{padding:14px 0;align-items:flex-start;flex-direction:column} .links{gap:12px;font-size:13px}.hero{min-height:540px}.about-grid,.contact-box{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.gallery-grid{grid-template-columns:repeat(2,1fr)}.enquiry-form{grid-template-columns:1fr}.full{grid-column:auto}.map-box iframe{height:300px}}
-@media(max-width:600px){.grid,.gallery-grid{grid-template-columns:1fr}.gallery-item{height:170px}section{padding:58px 0}.brand{font-size:15px}.brand-text span{letter-spacing:2.6px}.floating-whatsapp{right:14px;bottom:14px;padding:13px}.floating-whatsapp span{display:none}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="INFINITY LIGHTS & DECOR offers event, wedding, stage lighting and decoration services in Nashik, Maharashtra. Enquire on WhatsApp.">
+  <meta name="theme-color" content="#090a0d">
+  <title>INFINITY LIGHTS &amp; DECOR | Lighting &amp; Event Decor, Nashik</title>
+  <style>
+    :root{--gold:#d9b45b;--gold2:#f3d98d;--bg:#090a0d;--muted:#b9bac0;--white:#fff;--line:#d9b45b55;--shadow:0 18px 50px #0008}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--white);font:16px/1.6 Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.wrap{width:min(1160px,calc(100% - 32px));margin:auto}
+    header{position:sticky;top:0;z-index:10;background:#090a0def;border-bottom:1px solid #ffffff18;backdrop-filter:blur(12px)}nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:11px;font-weight:bold;letter-spacing:.08em}.brand-mark{display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--gold2),var(--gold));color:#111}.brand-text{display:flex;flex-direction:column;line-height:1.05;font-size:15px}.brand-text span{font-size:11px;letter-spacing:2.4px;color:var(--gold2)}.links{display:flex;gap:18px;flex-wrap:wrap}.links a{font-size:14px;color:#e9e7e0}.links a:hover{color:var(--gold2)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 21px;border:1px solid var(--line);border-radius:999px;background:linear-gradient(135deg,var(--gold2),var(--gold));color:#0a0d12;font-weight:bold;letter-spacing:.04em;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px);box-shadow:0 12px 24px #d9b45b44}.btn.outline{background:transparent;color:#fff;border-color:#ffffff40}
+    .hero{min-height:570px;display:grid;align-items:center;background:linear-gradient(90deg,#07080bf2,#07080bc9 48%,#07080b55),radial-gradient(ellipse at 78% 35%,#a77b2c88,transparent 35%),linear-gradient(135deg,#160f0c,#090a0d 55%,#172018);position:relative;overflow:hidden}.hero-content{max-width:660px;padding:55px 0}.eyebrow{display:inline-block;padding:7px 12px;border:1px solid var(--line);border-radius:999px;color:var(--gold2);font-size:11px;letter-spacing:2px;text-transform:uppercase}.hero h1{font-size:clamp(2.8rem,6vw,5.2rem);line-height:.98;letter-spacing:-.06em;margin:19px 0;text-transform:uppercase}.hero h1 em{display:block;color:var(--gold2);font-style:normal}.lead{max-width:570px;color:#ece7dd;font-size:1.08rem}.hero-actions{display:flex;flex-wrap:wrap;gap:13px;margin-top:27px}
+    section{padding:72px 0}.section-title{text-align:center;max-width:720px;margin:0 auto 34px}.section-title small{color:var(--gold2);letter-spacing:3px;text-transform:uppercase;font-size:11px}.section-title h2{font-size:clamp(2rem,4vw,3rem);line-height:1.1;letter-spacing:-.04em;margin:10px 0}.section-title p{color:var(--muted);margin:0}.about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:22px}.card,.service,.gallery-item,.contact-box,.enquiry-box,.map-box{border:1px solid var(--line);border-radius:12px;background:linear-gradient(145deg,#191b21,#111216);box-shadow:var(--shadow)}.about-card{padding:30px}.about-card h2{font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.1;margin:14px 0}.about-card p{color:var(--muted)}.visual-card{display:grid;place-items:center;text-align:center;min-height:260px;padding:20px;color:var(--gold2);font-size:clamp(1.8rem,4vw,2.8rem);font-weight:bold;letter-spacing:.08em;line-height:1.2;background:radial-gradient(circle at 50% 40%,#d9b45b33,transparent 45%),linear-gradient(145deg,#191b21,#111216)}
+    .services,.stories{background:#101116}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.service{padding:24px}.icon{font-size:30px;color:var(--gold2)}.service h3{margin:8px 0;font-size:1.3rem}.service p{color:var(--muted);margin:0}
+    .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.gallery-item{min-height:210px;display:flex;align-items:flex-end;padding:18px;background-position:center;background-size:cover;color:white;font-weight:bold;letter-spacing:.05em;text-transform:uppercase;text-shadow:0 2px 8px #000;background-image:linear-gradient(0deg,#000a,transparent 70%),url('https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=900&q=80')}.gallery-item:nth-child(2){background-image:linear-gradient(0deg,#000a,transparent 70%),url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=900&q=80')}.gallery-item:nth-child(3){background-image:linear-gradient(0deg,#000a,transparent 70%),url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80')}.gallery-item:nth-child(4){background-image:linear-gradient(0deg,#000a,transparent 70%),url('https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=900&q=80')}.gallery-item:nth-child(5){background-image:linear-gradient(0deg,#000a,transparent 70%),url('https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=900&q=80')}.gallery-item:nth-child(6){background-image:linear-gradient(0deg,#000a,transparent 70%),url('https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=900&q=80')}
+    .story-card{max-width:760px;margin:auto;text-align:center;padding:28px}.story-card p{color:var(--muted)}.story-card .btn{margin-top:14px}.contact{background:linear-gradient(130deg,#191710,#101116 60%)}.contact-box{display:grid;grid-template-columns:.85fr 1.15fr;gap:20px;padding:20px}.contact-list,.enquiry-box{padding:22px;background:#111318;border:1px solid #ffffff16;border-radius:10px}.contact-list h3,.enquiry-box h3{margin:0 0 12px}.contact-list p,.contact-list a{display:block;color:#eaeae4;line-height:1.8}.contact-list .muted,.enquiry-box>p{color:var(--muted)}.contact-list .btn{display:inline-flex;margin-top:16px}.enquiry-box>p{margin:0 0 16px}.enquiry-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.enquiry-form label{display:grid;gap:6px;color:#f0efe8;font-size:12px;font-weight:bold;letter-spacing:.05em;text-transform:uppercase}.enquiry-form input,.enquiry-form select,.enquiry-form textarea{width:100%;padding:12px;border:1px solid #ffffff24;border-radius:8px;background:#0f1015;color:#fff;outline:none}.enquiry-form input:focus,.enquiry-form select:focus,.enquiry-form textarea:focus{border-color:var(--gold);box-shadow:0 0 0 3px #d9b45b22}.enquiry-form textarea{min-height:100px;resize:vertical}.full{grid-column:1/-1}.map-box{margin-top:18px;padding:8px}.map-box iframe{display:block;width:100%;height:280px;border:0;border-radius:8px}footer{padding:24px 0;text-align:center;color:#999;border-top:1px solid #ffffff18;font-size:13px}.floating-whatsapp{position:fixed;right:20px;bottom:20px;z-index:20;display:flex;align-items:center;gap:8px;padding:13px 18px;border-radius:999px;background:#25d366;color:#071b10;font-weight:bold;box-shadow:0 18px 26px #25d36644}.floating-whatsapp:hover{transform:translateY(-2px)}
+    @media(max-width:760px){nav{padding:14px 0;align-items:flex-start;flex-direction:column}.links{gap:12px}.about-grid,.contact-box{grid-template-columns:1fr}.grid,.gallery-grid{grid-template-columns:repeat(2,1fr)}.hero{min-height:520px}.enquiry-form{grid-template-columns:1fr}.full{grid-column:auto}}
+    @media(max-width:520px){.grid,.gallery-grid{grid-template-columns:1fr}.gallery-item{min-height:175px}section{padding:55px 0}.floating-whatsapp{right:13px;bottom:13px;padding:13px}.floating-whatsapp .wa-label{display:none}}
+  </style>
 </head>
 <body>
-<header>
-  <div class="wrap">
-    <nav>
-      <a class="brand" href="#home" aria-label="Infinity Lights and Decor home">
-        <span class="brand-mark" aria-hidden="true">✦</span>
-        <span class="brand-text">INFINITY<span>LIGHTS &amp; DECOR</span></span>
-      </a>
-      <div class="links">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
-  </div>
-</header>
-
+<header><div class="wrap"><nav>
+  <a class="brand" href="#home" aria-label="Infinity Lights and Decor home"><span class="brand-mark" aria-hidden="true">✦</span><span class="brand-text">INFINITY<span>LIGHTS &amp; DECOR</span></span></a>
+  <div class="links"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
+</nav></div></header>
 <main>
-  <section class="hero" id="home">
-    <div class="wrap hero-content">
-      <div class="eyebrow">Nashik · Maharashtra</div>
-      <h1>LIGHT UP<br><em>YOUR CELEBRATION.</em></h1>
-      <p class="lead">Make every occasion unforgettable with beautiful event lighting and professional stage illumination.</p>
-      <div class="hero-actions">
-        <a class="btn" href="#contact">ENQUIRE NOW</a>
-        <a class="btn outline" href="#services">EXPLORE SERVICES</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="wrap about-grid">
-      <div class="about-card">
-        <div class="eyebrow">Who We Are</div>
-        <h3>Creating memorable moments with light.</h3>
-        <p>INFINITY LIGHTS &amp; DECOR provides event lighting services for celebrations and special occasions in Nashik and nearby areas. We help bring your event vision to life with thoughtful lighting arrangements that feel warm, elegant and unique.</p>
-        <p>Whether it is a wedding, engagement, birthday celebration, reception or a decorated venue, our team focuses on designing lighting that enhances the mood and atmosphere of the moment.</p>
-      </div>
-      <div class="visual-card">✨<br>MAKE EVERY<br>MOMENT SHINE</div>
-    </div>
-  </section>
-
-  <section class="services" id="services">
-    <div class="wrap">
-      <div class="section-title">
-        <small>What We Do</small>
-        <h2>Our Lighting Services</h2>
-        <p>Lighting solutions for celebrations, functions and special events designed to create an impressive atmosphere.</p>
-      </div>
-
-      <div class="grid">
-        <div class="service">
-          <div class="icon">✦</div>
-          <h3>Wedding Lighting</h3>
-          <p>Beautiful lighting arrangements to create a memorable wedding atmosphere.</p>
-        </div>
-        <div class="service">
-          <div class="icon">✧</div>
-          <h3>Stage Lighting</h3>
-          <p>Lighting setups that highlight the stage and key moments of your event.</p>
-        </div>
-        <div class="service">
-          <div class="icon">✺</div>
-          <h3>LED Lighting</h3>
-          <p>Decorative LED lighting for venues, entrances and event spaces.</p>
-        </div>
-        <div class="service">
-          <div class="icon">❖</div>
-          <h3>Birthday Events</h3>
-          <p>Colourful lighting to add excitement to birthday celebrations.</p>
-        </div>
-        <div class="service">
-          <div class="icon">✷</div>
-          <h3>Engagement &amp; Reception</h3>
-          <p>Elegant lighting ideas for engagement ceremonies and receptions.</p>
-        </div>
-        <div class="service">
-          <div class="icon">✦</div>
-          <h3>Custom Event Lighting</h3>
-          <p>Lighting arrangements planned around your event requirements.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="gallery">
-    <div class="wrap">
-      <div class="section-title">
-        <small>Our Work</small>
-        <h2>Lighting Gallery</h2>
-        <p>These sample project covers showcase the type of work we can design and deliver for your next event.</p>
-      </div>
-      <div class="gallery-grid">
-        <div class="gallery-item">Wedding Lighting Photo</div>
-        <div class="gallery-item">Stage Lighting Photo</div>
-        <div class="gallery-item">LED Setup Photo</div>
-        <div class="gallery-item">Reception Decor</div>
-        <div class="gallery-item">Birthday Setup</div>
-        <div class="gallery-item">Event Entrance</div>
-      </div>
-    </div>
-  </section>
-
-  <section class="stories">
-    <div class="wrap">
-      <div class="section-title">
-        <small>Celebrations to Come</small>
-        <h2>Your Event Could Be Our Next Story</h2>
-        <p>We look forward to helping make your special occasion feel brighter, more graceful and more memorable.</p>
-      </div>
-      <div class="story-card">
-        <p>From intimate family events to grand venue lighting, we help you create a truly magical atmosphere.</p>
-        <a class="btn" href="#contact">BOOK YOUR EVENT</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <div class="wrap">
-      <div class="section-title">
-        <small>Let's Plan Your Event</small>
-        <h2>Contact Us</h2>
-        <p>Share your event date, location and lighting requirements. We will guide you with the right setup.</p>
-      </div>
-
-      <div class="contact-box">
-        <div class="contact-list">
-          <h3>INFINITY LIGHTS &amp; DECOR</h3>
-          <p class="meta">Professional Event Lighting Services<br>Nashik, Maharashtra</p>
-          <p><strong>Owners</strong><br>Piyush Khairnar<br>Khushal Kamble</p>
-          <a href="tel:+919021578240">☎ 9021578240</a>
-          <a href="tel:+918767956331">☎ 8767956331</a>
-          <a href="mailto:piyushkhairnar78@gmail.com">✉ piyushkhairnar78@gmail.com</a>
-          <a class="btn" href="https://wa.me/919021578240?text=Hello%20INFINITY%20LIGHTS%20%26%20DECOR%2C%20I%20would%20like%20to%20enquire%20about%20event%20lighting." target="_blank" rel="noopener noreferrer">WhatsApp Enquiry</a>
-        </div>
-
-        <div class="enquiry-box">
-          <h3>Send an Enquiry</h3>
-          <p>Fill in your event details and continue to WhatsApp to send your enquiry.</p>
-
-          <form class="enquiry-form" id="enquiry-form">
-            <label>Your name *
-              <input type="text" name="name" autocomplete="name" required>
-            </label>
-
-            <label>Phone number *
-              <input type="tel" name="phone" autocomplete="tel" inputmode="tel" required>
-            </label>
-
-            <label>Event type *
-              <select name="event" required>
-                <option value="">Select event type</option>
-                <option>Wedding</option>
-                <option>Reception</option>
-                <option>Engagement</option>
-                <option>Birthday</option>
-                <option>Festival</option>
-                <option>Other</option>
-              </select>
-            </label>
-
-            <label>Event date
-              <input type="date" name="date">
-            </label>
-
-            <label class="full">Venue / location
-              <input type="text" name="venue" placeholder="e.g. Nashik">
-            </label>
-
-            <label class="full">Lighting requirements
-              <textarea name="details" placeholder="Tell us what kind of lighting you need"></textarea>
-            </label>
-
-            <button class="btn full" type="submit">SEND ENQUIRY ON WHATSAPP</button>
-          </form>
-        </div>
-      </div>
-
-      <div class="map-box" style="margin-top:18px;">
-        <iframe title="Map showing Nashik, Maharashtra" src="https://maps.google.com/maps?q=Nashik%2C%20Maharashtra&t=&z=12&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-    </div>
-  </section>
+  <section class="hero" id="home"><div class="wrap hero-content"><div class="eyebrow">Nashik · Maharashtra</div><h1>LIGHT UP<em>YOUR CELEBRATION.</em></h1><p class="lead">Make every occasion unforgettable with beautiful event lighting, professional stage illumination and thoughtful decoration services.</p><div class="hero-actions"><a class="btn" href="#contact">ENQUIRE NOW</a><a class="btn outline" href="tel:+919021578240">CALL 9021578240</a></div></div></section>
+  <section id="about"><div class="wrap about-grid"><div class="card about-card"><div class="eyebrow">Who We Are</div><h2>Creating memorable moments with light and decor.</h2><p>INFINITY LIGHTS &amp; DECOR provides lighting and decoration services for celebrations and special occasions in Nashik and nearby areas. We help bring your event vision to life with arrangements that feel warm, elegant and unique.</p><p>From weddings and receptions to birthdays, home celebrations and venue decoration, our team helps make every occasion shine.</p></div><div class="card visual-card">✨<br>MAKE EVERY<br>MOMENT SHINE</div></div></section>
+  <section class="services" id="services"><div class="wrap"><div class="section-title"><small>What We Do</small><h2>Lighting &amp; Decoration Services</h2><p>Service arrangements tailored to your celebration, venue and requirements.</p></div><div class="grid">
+    <article class="service"><div class="icon">✦</div><h3>Wedding Lighting</h3><p>Beautiful lighting arrangements for a memorable wedding atmosphere.</p></article><article class="service"><div class="icon">✧</div><h3>Stage Decoration</h3><p>Stage styling, backdrops and lighting to highlight your event.</p></article><article class="service"><div class="icon">✺</div><h3>LED &amp; Building Lighting</h3><p>Decorative LED lighting for homes, venues, entrances and buildings.</p></article><article class="service"><div class="icon">❖</div><h3>Birthday Events</h3><p>Colourful decoration and lighting for birthday celebrations.</p></article><article class="service"><div class="icon">✷</div><h3>Engagement &amp; Reception</h3><p>Elegant decor and lighting ideas for ceremonies and receptions.</p></article><article class="service"><div class="icon">✦</div><h3>Custom Event Decor</h3><p>Lighting and decoration planned around your event requirements.</p></article>
+  </div></div></section>
+  <section id="gallery"><div class="wrap"><div class="section-title"><small>Our Work</small><h2>Lighting &amp; Decor Gallery</h2><p>Sample gallery images. Replace these with your own completed project photos for an accurate portfolio.</p></div><div class="gallery-grid"><div class="gallery-item">Wedding Lighting</div><div class="gallery-item">Stage Lighting</div><div class="gallery-item">LED Setup</div><div class="gallery-item">Reception Decor</div><div class="gallery-item">Birthday Setup</div><div class="gallery-item">Event Entrance</div></div></div></section>
+  <section class="stories"><div class="wrap"><div class="section-title"><small>Celebrations to Come</small><h2>Your Event Could Be Our Next Story</h2><p>We look forward to making your special occasion brighter, more graceful and memorable.</p></div><div class="card story-card"><p>From family celebrations to grand venue lighting, let us help create the atmosphere you have in mind.</p><a class="btn" href="#contact">BOOK YOUR EVENT</a></div></div></section>
+  <section class="contact" id="contact"><div class="wrap"><div class="section-title"><small>Let's Plan Your Event</small><h2>Contact Us</h2><p>Share your service, event date and location. We will discuss a suitable setup.</p></div><div class="contact-box">
+    <div class="contact-list"><h3>INFINITY LIGHTS &amp; DECOR</h3><p class="muted">Professional Lighting &amp; Decoration Services<br>Nashik, Maharashtra</p><p><strong>Owner</strong><br>Piyush Khairnar</p><a href="tel:+919021578240">☎ 9021578240</a><a href="tel:+918767956331">☎ 8767956331</a><a href="mailto:piyushkhairnar78@gmail.com">✉ piyushkhairnar78@gmail.com</a><a class="btn" href="https://wa.me/919021578240?text=Hello%20INFINITY%20LIGHTS%20%26%20DECOR%2C%20I%20would%20like%20to%20enquire." target="_blank" rel="noopener noreferrer">WhatsApp Enquiry</a></div>
+    <div class="enquiry-box"><h3>Send an Enquiry</h3><p>Fill in your details; WhatsApp will open with your enquiry message ready to send.</p><form class="enquiry-form" id="enquiry-form">
+      <label>Full name *<input type="text" name="name" autocomplete="name" required></label>
+      <label>Contact number *<input type="tel" name="phone" autocomplete="tel" inputmode="tel" pattern="[0-9+() -]{10,18}" required></label>
+      <label>Service required *<select name="service" required><option value="">Select service</option><option>Lighting</option><option>Decoration</option><option>Lighting and Decoration</option></select></label>
+      <label>Event type *<select name="event" required><option value="">Select event type</option><option>Wedding</option><option>Reception</option><option>Engagement</option><option>Birthday</option><option>Festival</option><option>Other</option></select></label>
+      <label>Event date<input type="date" name="date"></label>
+      <label>Venue / location<input type="text" name="venue" placeholder="e.g. Nashik"></label>
+      <label class="full">Requirements / message<textarea name="details" placeholder="Tell us what kind of lighting or decoration you need"></textarea></label>
+      <button class="btn full" type="submit">SEND ENQUIRY ON WHATSAPP</button>
+    </form></div>
+  </div><div class="map-box"><iframe title="Map showing Nashik, Maharashtra" src="https://maps.google.com/maps?q=Nashik%2C%20Maharashtra&t=&z=12&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div></section>
 </main>
-
 <footer>© <span id="year"></span> INFINITY LIGHTS &amp; DECOR · Nashik, Maharashtra</footer>
-
-<a class="floating-whatsapp" href="https://wa.me/919021578240?text=Hello%20INFINITY%20LIGHTS%20%26%20DECOR%2C%20I%20would%20like%20to%20enquire%20about%20event%20lighting." target="_blank" rel="noopener noreferrer">
-  <span class="wa-dot">✆</span>
-  <span>WhatsApp</span>
-</a>
-
+<a class="floating-whatsapp" href="https://wa.me/919021578240?text=Hello%20INFINITY%20LIGHTS%20%26%20DECOR%2C%20I%20would%20like%20to%20enquire." target="_blank" rel="noopener noreferrer" aria-label="Chat with Infinity Lights and Decor on WhatsApp"><span>✆</span><span class="wa-label">WhatsApp</span></a>
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
-
 document.getElementById('enquiry-form').addEventListener('submit', function (event) {
   event.preventDefault();
+  if (!this.reportValidity()) return;
   const form = new FormData(this);
   const message = [
-    'Hello INFINITY LIGHTS & DECOR, I would like to enquire about event lighting.',
-    '',
-    `Name: ${form.get('name')}`,
-    `Phone: ${form.get('phone')}`,
-    `Event: ${form.get('event')}`,
-    `Date: ${form.get('date') || 'Not provided'}`,
-    `Venue: ${form.get('venue') || 'Not provided'}`,
+    'Hello INFINITY LIGHTS & DECOR, I would like to enquire about your services.', '',
+    `Full name: ${form.get('name')}`,
+    `Contact number: ${form.get('phone')}`,
+    `Service required: ${form.get('service')}`,
+    `Event type: ${form.get('event')}`,
+    `Event date: ${form.get('date') || 'Not provided'}`,
+    `Venue / location: ${form.get('venue') || 'Not provided'}`,
     `Requirements: ${form.get('details') || 'Not provided'}`
   ].join('\n');
-
-  const whatsappUrl = 'https://wa.me/919021578240?text=' + encodeURIComponent(message);
-  window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+  window.open('https://wa.me/919021578240?text=' + encodeURIComponent(message), '_blank', 'noopener,noreferrer');
 });
 </script>
 </body>
